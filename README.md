@@ -1,1 +1,162 @@
-
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   TONKA ICP
+  </title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <style>
+   body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #85ff59;
+            color: rgb(0, 0, 0);
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            background-color: rgba(0, 0, 0, 0.2);
+        }
+        .navbar img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+        }
+        .navbar ul {
+            list-style: none;
+            display: flex;
+            margin: 0;
+            padding: 0;
+        }
+        .navbar ul li {
+            margin: 0 15px;
+        }
+        .navbar ul li a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+        .navbar ul li a:hover {
+            text-decoration: underline;
+        }
+        .navbar .icons {
+            display: flex;
+            align-items: center;
+        }
+        .navbar .icons i {
+            margin-left: 15px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+        .content {
+            text-align: center;
+            padding: 50px 20px;
+        }
+        .content img {
+            width: 150px;
+            height: auto;
+        }
+        .content h1 {
+            font-size: 48px;
+            margin: 20px 0;
+        }
+        .content h2 {
+            font-size: 36px;
+            margin: 10px 0;
+        }
+        .content .buttons {
+            margin-top: 30px;
+        }
+        .content .buttons button {
+            background-color: #00d1d1;
+            border: none;
+            padding: 15px 30px;
+            font-size: 20px;
+            font-weight: bold;
+            color: black;
+            border-radius: 10px;
+            cursor: pointer;
+            margin: 10px;
+        }
+        .content .buttons button:hover {
+            background-color: #00b3b3;
+        }
+        .footer {
+            text-align: center;
+            padding: 20px;
+            background-color: rgba(235, 205, 205, 0.2);
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+        .footer a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        .footer a:hover {
+            text-decoration: underline;
+        }
+  </style>
+ </head>
+ <body>
+  <div class="navbar">
+   <img alt="TONKA ICP" height="50" src="images/TONKA LOGO.jpg" width="50"/>
+   <ul>
+    <li>
+     <a href="#">
+      HOME
+     </a>
+    </li>
+    <li>
+     <a href="#">
+      ABOUT
+     </a>
+    </li>
+    <li>
+     <a href="#">
+      ROADMAP
+     </a>
+    </li>
+   </ul>
+   <div class="icons">
+    <a href="https:t.me/tonkachat">
+    <i class="fab fa-telegram-plane">
+    </i>
+    </a>
+<a href="https:twitter.com/tonka_icp">
+    <i class="fas fa-times">
+    </i>
+    </a>
+   </div>
+  </div>
+  <div class="content">
+   <img alt="TONKA" height="150" src="images/TONKA LOGO.jpg" width="150"/>
+   <h1>
+    TONKA ICP
+   </h1>
+   <h2>
+    CANISTER ID SOON
+   </h2>
+   <div class="buttons">
+    <button>
+     BUY
+    </button>
+   </div>
+  </div>
+  <div class="footer">
+   <p>
+    COPYRIGHT © 2025 TONKAICP. ALL RIGHTS RESERVED
+   </p>
+   <a href="#">
+    TERMS OF USE
+   </a>
+   <a href="#">
+    PRIVACY POLICY
+   </a>
+  </div>
+ </body>
+</html>
